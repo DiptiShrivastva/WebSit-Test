@@ -5,7 +5,7 @@ let instance = null;
 const connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'AkkuLaddu@57',
+    password: '',//your password
     database: 'users'
     
 });
