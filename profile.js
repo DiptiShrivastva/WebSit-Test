@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
       .then(response => response.json())
       .then(user => {
         if (user) {
-          document.getElementById('user-name').textContent = `@${user.name}`;
+          document.getElementById('name').textContent = `@${user.name}`;
           document.getElementById('nickname').textContent = `Nick name: ${user.nickname}`;
           document.getElementById('age').textContent = `Age: ${user.age}`;
           document.getElementById('bio').textContent = `Bio: ${user.bio}`;
